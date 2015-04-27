@@ -1,0 +1,15 @@
+<table class="table table-striped">
+    <tr>
+        <th>From</th>
+        <th>Subject</th>
+        <th>Recived at</th>
+        <th>Preview</th>
+    </tr>
+    <tr ng-repeat="mail in inbox.mails" ng-click="inbox.onRowSelection(mail)">
+        <td ng-bind="mail.from"></td>
+        <td ng-bind="mail.subject"></td>
+        <td ng-bind="mail.receivedat"></td>
+        <td ng-bind="mail.preview"></td>
+    </tr>
+
+</table>

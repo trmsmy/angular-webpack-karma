@@ -1,0 +1,29 @@
+{
+  "author": "trmsmy",
+  "name": "ngMailClientApp",
+  "devDependencies": {
+    "webpack": "~1.4.13",
+    "webpack-dev-server": "~1.6.6",
+    "matchdep": "~0.3.0",
+    "raw-loader": "~0.5.0",
+    "css-loader": "~0.6.6",
+    "url-loader": "~0.5.2",
+    "file-loader": "~0.8.1",
+    "style-loader": "~0.6.0",
+    "html-loader" : "0.2.3",
+    "less": "^1.7.5",
+    "less-loader": "^0.7.7",
+    "karma": "~0.12",
+    "grunt-karma": "~0.9.0",
+    "karma-webpack" : "1.3.1",
+    "karma-jasmine": "0.1.5",
+    "karma-script-launcher": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.2",
+    "karma-firefox-launcher": "~0.1.3",
+    "karma-jasmine": "~0.1.5",
+    "karma-junit-reporter" : "0.2.2",
+    "protractor": "~1.4.0",
+    "grunt-protractor-runner": "~1.1.4"
+
+  }
+}
