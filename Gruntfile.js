@@ -6,8 +6,8 @@ module.exports = function(grunt) {
 	//var webpackDevMiddleware = require("webpack-dev-middleware");
 	var webpack = require("webpack");
 	
-	var BUILD_TARGET_DIR  = 'dist', FINAL_BUNDLE_FILENAME = 'web-ui.zip',
-	REMOTE_SERVICE_HOST = 'bnlvpxawda.labcorp.com';
+	var BUILD_TARGET_DIR  = 'dist', FINAL_BUNDLE_FILENAME = 'ui.zip',
+	REMOTE_SERVICE_HOST = 'remoteserver.com';
 	
 	/*var proxySnippet = require('grunt-connect-proxy/lib/utils').proxyRequest;
 	var mountFolder = function (connect, dir) {
@@ -41,13 +41,7 @@ module.exports = function(grunt) {
                 livereload : true
             },
             proxies: [{
-                context: '/phx-rest',
-                host: REMOTE_SERVICE_HOST,
-                changeOrigin: true,
-                https: true
-            },
-			{
-                context: '/siteminderagent',
+                context: '/api',
                 host: REMOTE_SERVICE_HOST,
                 changeOrigin: true,
                 https: true
